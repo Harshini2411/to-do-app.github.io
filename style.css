@@ -6,8 +6,8 @@ font-family:'Times New Roman', Times, serif;
 height: 100vh;
 justify-content: center;
 background-image: url(./download.jpg);
+background-size: cover;
 background-repeat: no-repeat;
-background-size: 900px;
 }
 
 
