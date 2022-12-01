@@ -1,92 +1,77 @@
-body
-{
-background-color: palevioletred;
-color:  rgb(0, 0, 0);
-font-family:'Times New Roman', Times, serif;
-height: 100vh;
-justify-content: center;
-background-image: url(./i1.png);
-background-size: cover;
-background-repeat: no-repeat;
+body {
+  background-color: palevioletred;
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  height: 100vh;
+  justify-content: center;
+  background-image: url(./i1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-
-
-.container
-{
-width: 300px;
-height: 500px;
-border: 7px solid rgb(77, 77, 77);
-border-radius: 8px;
-padding: 25px;
-/* margin:10px 500px 10px 500px; */
-margin-top:30px;
-overflow-y: scroll;
+.container {
+  width: 300px;
+  height: 500px;
+  border: 7px solid rgb(77, 77, 77);
+  border-radius: 8px;
+  padding: 25px;
+  /* margin:10px 500px 10px 500px; */
+  margin-top: 30px;
+  overflow-y: scroll;
 }
 
-.container::-webkit-scrollbar
-{
-width: 0 !important;
+.container::-webkit-scrollbar {
+  width: 0 !important;
 }
 
-#add
-{
-background-color:  palevioletred;
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 4px 4px;
-border-radius:5px ;
-cursor: pointer;
+#add {
+  background-color: palevioletred;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 4px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-#co
-{
-color: palevioletred;
-font-weight: bold;
-text-align: center;
-
+#co {
+  color: palevioletred;
+  font-weight: bold;
+  text-align: center;
 }
-#cok
-{
-color: palevioletred;
-font-weight: bold;
-text-align: center;
+#cok {
+  color: palevioletred;
+  font-weight: bold;
+  text-align: center;
 }
 
-i
-{
-background-color:  rgb(88, 87, 88);
-/* color: white; */
-padding: 3px;
-border-radius: 10%;
+i {
+  background-color: rgb(88, 87, 88);
+  /* color: white; */
+  padding: 3px;
+  border-radius: 10%;
 }
 
-
-#tasks
-{
-display: grid;
-gap: 5px;
+#tasks {
+  display: grid;
+  gap: 5px;
 }
 
-#tasks div
-{
-background-color: palevioletred;
-border: 2px solid rgb(101, 97, 100); 
-padding: 5px;
-border-radius: 6px;
-display: grid;
-gap: 1px;
+#tasks div {
+  background-color: palevioletred;
+  border: 2px solid rgb(101, 97, 100);
+  padding: 5px;
+  border-radius: 6px;
+  display: grid;
+  gap: 1px;
 }
 
-.options
-{
-justify-self: center;
-display: flex;
-gap: 30px;
+.options {
+  justify-self: center;
+  display: flex;
+  gap: 30px;
 }
 
-.options i{
-cursor: pointer;
+.options i {
+  cursor: pointer;
 }
-
